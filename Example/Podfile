@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DDRavenLogger_Example' do
+  pod 'DDRavenLogger', :path => '../'
+
+  target 'DDRavenLogger_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

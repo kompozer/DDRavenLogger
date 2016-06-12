@@ -1,0 +1,29 @@
+PODS:
+  - CocoaLumberjack (2.3.0):
+    - CocoaLumberjack/Default (= 2.3.0)
+    - CocoaLumberjack/Extensions (= 2.3.0)
+  - CocoaLumberjack/Core (2.3.0)
+  - CocoaLumberjack/Default (2.3.0):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.3.0):
+    - CocoaLumberjack/Default
+  - DDRavenLogger (0.1.0):
+    - CocoaLumberjack
+    - Raven
+  - Raven (1.0.1)
+
+DEPENDENCIES:
+  - DDRavenLogger (from `../`)
+
+EXTERNAL SOURCES:
+  DDRavenLogger:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CocoaLumberjack: 97fab7ee5f507fe54445cca7ea80f926729cfd15
+  DDRavenLogger: 4f9400b7919e91f242304a59660ab2ae039e2abd
+  Raven: 0c868f0b221c936ae352095d4af3d418e3db1242
+
+PODFILE CHECKSUM: 5c3eaf20171fb375f6f133600ce07568aff716e0
+
+COCOAPODS: 1.0.0

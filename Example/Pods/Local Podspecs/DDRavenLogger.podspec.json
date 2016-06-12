@@ -1,0 +1,30 @@
+{
+  "name": "DDRavenLogger",
+  "version": "0.1.0",
+  "summary": "A short description of DDRavenLogger.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/DDRavenLogger",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Andreas Kompanez": "andreas.kompanez@beekeeper.io"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/DDRavenLogger.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source_files": "DDRavenLogger/Classes/**/*",
+  "dependencies": {
+    "CocoaLumberjack": [
+
+    ],
+    "Raven": [
+
+    ]
+  }
+}
